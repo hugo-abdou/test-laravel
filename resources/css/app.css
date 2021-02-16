@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@tailwind base;
+@tailwind components;
+.app-container {
+    width: calc(100vw - 3rem);
+}
+
+#editorJs h1,
+#editorJs h2,
+#editorJs h3,
+#editorJs h4 {
+    @apply pt-0;
+}
+#editorJs h1 {
+    @apply text-4xl;
+}
+#editorJs h2 {
+    @apply text-3xl;
+}
+#editorJs h3 {
+    @apply text-2xl;
+}
+#editorJs h4 {
+    @apply text-xl;
+}
+@tailwind utilities;
